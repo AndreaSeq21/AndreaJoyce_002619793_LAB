@@ -9,7 +9,7 @@ import Model.DeliveryPackage;
 
 /**
  *
- * @author Andrea Sequeira
+ * @author Andrea Joyce Sequeira
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -83,7 +83,7 @@ public class MainJFrame extends javax.swing.JFrame {
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, ControlJPanelLayout.createSequentialGroup()
                             .addGap(54, 54, 54)
                             .addComponent(displayButton, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
         ControlJPanelLayout.setVerticalGroup(
             ControlJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -94,7 +94,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(updateButton)
                 .addGap(62, 62, 62)
                 .addComponent(displayButton)
-                .addContainerGap(71, Short.MAX_VALUE))
+                .addContainerGap(58, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(ControlJPanel);

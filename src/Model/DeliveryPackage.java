@@ -4,12 +4,11 @@
  * and open the template in the editor.
  */
 package Model;
-
 import java.util.ArrayList;
 
 /**
  *
- * @author asequ
+ * @author Andrea Joyce Sequeira
  */
 public class DeliveryPackage {
 
@@ -65,7 +64,6 @@ public class DeliveryPackage {
         product.setPrice(price);
         this.productList.add(product);
         return product;
-        
     }
     
     public Product findProduct(int pid) {
